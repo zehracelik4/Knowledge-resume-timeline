@@ -56,6 +56,8 @@ h1 {
     padding: 1rem;
     background: var(--secondary-color);
     transition: all 0.5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
 }
 
   /* Right Side */
@@ -78,7 +80,7 @@ h1 {
     bottom: 0;
     width: 25px;
     height: 25px;
-    background: var(--secondary-color);
+    background: inherit;
     transform: translateX(-50%);
     border-radius: 50%;
     transition: background 0.5s ease-in-out;
